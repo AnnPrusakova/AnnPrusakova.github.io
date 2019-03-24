@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Condensed');
+.mar{
+    margin-top: 80px;
+    padding-top: 80px;
+}
+.container{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container .card-text{
+    font-family: 'Montserrat Alternates', sans-serif;
+}

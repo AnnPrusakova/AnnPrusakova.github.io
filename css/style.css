@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Condensed');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+
+.navbar{
+background:rgb(214,115,105);
+
+}
+.nav-link , .navbar-brand{
+color: #f4f4f4;
+cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 1em !important;
+    }
+
+.nav-link:hover{
+background:rgb(232, 156, 148);
+color: #000000;
+}
+
+.navbar-brand:hover{
+    color: #000000;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+   }
+    
+   
+
+  .description{
+    position: absolute;
+    top: 45%;
+    margin: auto;
+    padding: 2em;
+    }
+    .description p{
+    color: #ffffff ;
+    font-family: Lobster;
+    font-size: 60px;
+    }
+
+    .about{
+        padding: 16px;
+        position: relative;
+        font-family: 'Roboto Condensed', sans-serif;
+       
+    }
+    .about h1{
+        color: rgb(214,115,105);
+        margin: 32px;
+    }
+    .about img{
+        height: 80%;
+        width: 80%;
+        border-radius: 80%;
+        
+    }
+
+    .about .desc{
+        padding: 2em;
+        border-left:4px solid rgb(201,250,254);
+        background-color: rgb(214,115,105);
+    }
+    .about .desc h3{
+        color: #ffffff;
+        
+    }
+    .about .desc p{
+        line-height:2;
+        color:#ffffff;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+    .development{
+        margin: 4em 0;
+        position: relative;	
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .development h1{
+        color: rgb(214,115,105);
+        margin: 2em;	
+    }
+
+    .development .desc{
+        padding: 2em;
+        color: #ffffff;
+        border-right:4px solid rgb(201,250,254);
+        background-color: rgb(214,115,105);
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+ 
+    footer{
+        height: 160px;
+        bottom: 0;
+        background-color: rgb(214,115,105);
+        font-family: 'Roboto Condensed', sans-serif;
+       
+        
+    }
+      
+  .fab{
+        color: black;
+        font-size: 30px;
+     margin-right: 20px;
+     padding-bottom: 10px;
+   
+  }
+
+  .fas{
+    color: black;
+    font-size: 30px;
+ padding-bottom: 10px;
+  }
+
+  hr.divider {
+    max-width: 3.25rem;
+    border-width: .2rem;
+    border-color: #ffffff;
+  }
+  .page-section {
+    padding: 30px 0;
+}
+  .touch{
+    font-size: 2rem;
+  }
+
+  .icn{
+    text-align: center;
+  }
+
+.row{
+    margin-right: 15px!important;
+    padding-bottom: 1px!important;
+}
+
+.mail{
+    color: #000000;
+}
+
+.mail:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }

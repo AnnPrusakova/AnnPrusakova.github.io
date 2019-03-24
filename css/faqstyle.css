@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Condensed');
+
+
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+
+.mt-3{
+    margin-top: 60px!important;
+    padding-top: 60px;
+
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: rgb(232, 156, 148);
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+   
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+    
+}
+.collapsed{
+    color: rgb(232,156,148);
+}
+
+.collapsed:hover{
+    color: rgb(232, 156, 148)!important;
+}
+
+
+.panel-title a:hover{
+    color: rgb(232, 156, 148)!important;
+}
+
+.panel-title a{
+    color: rgb(232, 156, 148)!important;
+}
+
+.container .text-center{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container .panel-title{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
