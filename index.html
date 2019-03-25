@@ -42,7 +42,7 @@
               <a class="nav-link " data-value="faq" href="faq.html">F.A.Q.</a>
             </li>
           <li class="nav-item">
-              <button id="form_109872_1" type="button" class="btn btn-light"  data-toggle="modal" data-target="#modalForm">
+              <button type="button" class="btn btn-light"  data-toggle="modal" data-target="#modalForm">
                 Кнопка связи</button>
           </li>
         </ul>
@@ -156,13 +156,13 @@
       </div>
     </footer>
     
-<!-- Форма обратной связи в модальном окне 
+<!-- Форма обратной связи в модальном окне -->
 
 
 <div class="modal fade" id="modalForm" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
-            
+            <!-- Modal Header -->
 
             <div class="modal-header">
                 <h4 class="modal-title" id="myModalLabel">Обратная связь</h4>
@@ -173,7 +173,7 @@
                 
             </div>
             
-          
+            <!-- Modal Body -->
             <div class="modal-body">
                 <p class="statusMsg"></p>
                 <form role="form">
@@ -182,7 +182,7 @@
                         <input type="text" class="form-control" id="inputName" placeholder="Имя"/>
                     </div>
                     <div class="form-group">
-                        <label for="inputName">Фамилия</label>
+                        <label for="inputSecondName">Фамилия</label>
                         <input type="text" class="form-control" id="inputSecondName" placeholder="Фамилия"/>
                     </div>
                     <div class="form-group">
@@ -190,8 +190,8 @@
                         <input type="email" class="form-control" id="inputEmail" placeholder="Email"/>
                     </div>
                     <div class="form-group">
-                        <label for="inputEmail">Телефон</label>
-                        <input type="email" class="form-control" id="inputPhone" placeholder="+380"/>
+                        <label for="inputPhone">Телефон</label>
+                        <input type="phone" class="form-control" id="inputPhone" placeholder="+380"/>
                     </div>
                     <div class="form-group">
                         <label for="inputMessage">Сообщение</label>
@@ -199,8 +199,7 @@
                     </div>
                 </form>
             </div>
-            
-           
+            <!-- Modal Footer -->
             <div class="modal-footer">
                 <button type="button" class="btn btn-light" data-dismiss="modal">Закрыть</button>
                 <button type="button" class="btn submitBtn" style=" background-color: rgb(214,115,105);" onclick="submitContactForm()">Отправить</button>
@@ -209,22 +208,7 @@
     </div>
 </div>
 
--->
-<div id="form_109872_1"></div>
-<script type="text/javascript">
-   (function (d, w, c) {
-       (w[c] = w[c] || []).push({formId:109872,host:"formdesigner.ru",formHeight:0, el: "form_109872_1", center: 0});
-       var s = d.createElement("script"), g = "getElementsByTagName";
-       s.type = "text/javascript"; s.charset="UTF-8"; s.async = true;
-       s.src = (d.location.protocol == "https:" ? "https:" : "http:")+"//formdesigner.ru/js/iform.js";
-       var h=d[g]("head")[0] || d[g]("body")[0];
-       h.appendChild(s);
-   })(document, window, "fdforms");
-</script>
 
-<iframe style="height:300px; overflow:auto;" width="100%" marginwidth="0" marginheight="0" frameborder="0" src="http://formdesigner.ru/form/iframe/109872">
-  <p><a href="http://formdesigner.ru/form/view/109872">http://formdesigner.ru/form/view/109872</a></p>
-</iframe>
     <!-- add Javasscript file from js file -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
