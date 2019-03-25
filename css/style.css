@@ -97,7 +97,7 @@ color: #000000;
     }
  
     footer{
-        height: 160px;
+        
         bottom: 0;
         background-color: rgb(214,115,105);
         font-family: 'Roboto Condensed', sans-serif;
@@ -158,3 +158,27 @@ color: #000000;
     -o-background-size: cover;
     background-size: cover;
   }
+
+  .cid-qv5AKsQ6xL {
+    text-align: center!important;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: rgb(214,115,105);
+}
+.google-map{
+    
+    width: 50%;
+}
+
+.cont{
+    display: inline-block;
+
+}
+.footer-lower{
+    text-align: center!important;
+}
+
+.mbr-text{
+   
+        font-family: 'Roboto Condensed', sans-serif;
+}
